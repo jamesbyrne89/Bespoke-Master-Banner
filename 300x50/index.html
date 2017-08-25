@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sky Kids 300x50</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">   
+       	<link href="styles.css" rel="stylesheet" type="text/css">
+        <!-- Doubleclick Studio Enabler -->
+        <script type="text/javascript" src="http://s0.2mdn.net/ads/studio/Enabler.js" ></script>
+        <!-- CDN Createjs-->
+        <script type="text/javascript" src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+        <!-- CDN GSAP-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>        
+        <script type="text/javascript" src="app.js"></script>        
+    </head>
+
+    <body>
+        <div id='advert' class='advert'>
+            <canvas id="id-canvas" class="my-canvas" width="300" height="50"></canvas>
+            <div id='advert-border' class='advert-border'></div>
+            <div id='legal-button' class='legal-button'>
+                <p id='legal-button-label' class='legal-button-label'></p>
+            </div>
+            <div id='legal-copy-container' class='legal-copy-container'>
+                <p id='legal-copy' class='legal-copy'></p>
+                <p id='legal-copy-exit-button' class='legal-copy-exit-button'>X</p>
+                        <p style="position:absolute; left:-999px">
+        <span class="light" style="color:#ffffff;">Produced</span>
+            <span class="regular" style="color:#FFFFFF">by</span>
+            <span class="medium" style="color:#ffffff;">Sky Works</span>
+            <span class="bold" style="color:#ffffff;">for Sky</span>
+        </p>
+            </div>
+        </div>
+    </body>
+</html>
